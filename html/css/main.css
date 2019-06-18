@@ -1,18 +1,18 @@
 /*-------------------------------------------------------------------------
-    
+
     Theme Name: SOLITUDE: One Page Minimal Bootstrap Portfolio HTML Template
     Auther: SynchroTheme
     Author URI: http://synchrotheme.com
     Version: 1.0
 
   -------------------------------------------------------------------------
- 
+
     Table of Contents
 
     01. Fonts Section
     02. General Section
     03. Author's Style Section
-  
+
   -------------------------------------------------------------------------*/
 /* ==========================================================================
    Fonts Section
@@ -268,15 +268,15 @@ Home Section
   font-weight: 700;
   color: #9FD8CB;
 }
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover{
     background: transparent !important;
-    color: #9FD8CB !important; 
+    color: #9FD8CB !important;
 }
 .main_menu .navbar-nav>li>a:hover,
 .main_menu .navbar-nav>li>a:focus{
-  color: #9FD8CB !important; 
+  color: #9FD8CB !important;
 }
 .isActive{
   position: fixed;
@@ -289,7 +289,7 @@ Home Section
 .main_menu .navbar-toggle .icon-bar{
     background: #9FD8CB;
 }
-.main_menu .navbar-toggle:focus, 
+.main_menu .navbar-toggle:focus,
 .main_menu .navbar-toggle:hover{
     background: transparent;
 }
@@ -301,14 +301,14 @@ Home Section
 
 .welcome_slider {
     height: 100%;
-    background: url('../img/banner/1.png');
+    background: url('../img/banner/macbook.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
     top: 0px;
-    
+
 }
 .welcome_slider:before {
     position: absolute;
@@ -347,7 +347,7 @@ About Section
 /*About Content
 =====================*/
 
-.about_content h2 {
+.about_content h2, h3 {
     color: #9fd8cb;
 }
 .about_btn {
@@ -362,7 +362,7 @@ About Section
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     overflow: hidden;
-    
+
 }
 .about_content .nav-tabs {
     border-color: transparent;
@@ -432,6 +432,9 @@ About Section
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
     filter: grayscale(1);
+}
+#signature{
+  width: 30%;
 }
 /*
 -----------------------------------------
@@ -751,4 +754,20 @@ Contact Section
 }
 .success {
     color: #9FD8CB;
+}
+
+/*
+-----------------------------------------
+Fixed Floating Footer
+-----------------------------------------
+*/
+
+#bookNow {
+  /* border: 2px solid white; */
+  width: 20%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
 }
